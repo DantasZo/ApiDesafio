@@ -1,0 +1,11 @@
+@ApiDesafio_HostAddress = http://localhost:5100
+
+POST {{ApiDesafio_HostAddress}}/api/Desafio
+Content-Type: application/json
+
+{
+    "Key": "sequencia_a_ser_testada",
+    "grupo": "nome_do_grupo"
+}
+
+###
